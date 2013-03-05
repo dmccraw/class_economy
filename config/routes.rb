@@ -1,5 +1,19 @@
 ClassEconomy::Application.routes.draw do
 
+  get "student/new"
+
+  get "student/create"
+
+  get "student/edit"
+
+  get "student/update"
+
+  get "student/index"
+
+  get "student/show"
+
+  get "student/destroy"
+
   resources :groups do
     resources :jobs
   end
