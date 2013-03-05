@@ -11,7 +11,39 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130304042418) do
+ActiveRecord::Schema.define(:version => 20130305024444) do
+
+  create_table "groups", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "groups", ["user_id"], :name => "index_groups_on_user_id"
+
+  create_table "jobs", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "title"
+    t.string   "description"
+    t.float    "salary"
+    t.integer  "group_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  add_index "jobs", ["group_id"], :name => "index_jobs_on_group_id"
+  add_index "jobs", ["user_id"], :name => "index_jobs_on_user_id"
+
+  create_table "memberships", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "group_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "memberships", ["group_id"], :name => "index_memberships_on_group_id"
+  add_index "memberships", ["user_id"], :name => "index_memberships_on_user_id"
 
   create_table "roles", :force => true do |t|
     t.string   "name"

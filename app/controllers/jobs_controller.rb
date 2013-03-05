@@ -1,8 +1,12 @@
 class JobsController < ApplicationController
+
+  before_filter :get_group
+
   # GET /jobs
   # GET /jobs.json
   def index
-    @jobs = Job.all
+    # @jobs = Job.all
+    jobs = @group.jobs
 
     respond_to do |format|
       format.html # index.html.erb
@@ -80,4 +84,9 @@ class JobsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def get_group
+    @group = Group.find(params[:group_id])
+  end
+
 end

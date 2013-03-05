@@ -1,10 +1,8 @@
 ClassEconomy::Application.routes.draw do
 
-  resources :jobs
-
-
-  resources :groups
-
+  resources :groups do
+    resources :jobs
+  end
 
   authenticated :user do
     root :to => 'home#index'
