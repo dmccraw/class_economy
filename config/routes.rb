@@ -1,5 +1,8 @@
 ClassEconomy::Application.routes.draw do
 
+  resources :jobs
+
+
   resources :groups
 
 
