@@ -1,15 +1,19 @@
-<%= simple_form_for(@job) do |f| %>
-  <%= f.error_notification %>
+<%= form_for([@group,@job]) do |f| %>
+  <%= render partial: '/shared/errors', locals: { o: @group } %>
 
-  <div class="form-inputs">
-    <%= f.association :user %>
-    <%= f.input :title %>
-    <%= f.input :description %>
-    <%= f.input :salary %>
-    <%= f.association :group %>
+  <div class="field">
+    <%= f.label :title %>
+    <%= f.text_field :title %>
   </div>
-
-  <div class="form-actions">
-    <%= f.button :submit %>
+  <div class="field">
+    <%= f.label :description %>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :salary, "Monthy Salary" %>
+    $ <%= f.text_field :salary %>
+  </div>
+  <div class="actions">
+    <%= f.submit  %>
   </div>
 <% end %>
