@@ -11,5 +11,7 @@
 
 class Group < ActiveRecord::Base
   belongs_to :user
+  has_many :jobs
+
   attr_accessible :name, :user_id
 end
