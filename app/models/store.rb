@@ -1,10 +1,7 @@
 class Store < ActiveRecord::Base
   belongs_to :group
-  attr_accessible :approved, :description, :name
+  attr_accessible :name, :description, :approved
 
   #Validations by JM
-  validates :group, :presence => true
-  validates :approved, :presence => true
-  validates :description, :presence => true
-  validates :name, :presence => true
+  validates_presence_of :name, :description, :approved, :group
 end
