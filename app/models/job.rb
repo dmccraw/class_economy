@@ -16,7 +16,12 @@ class Job < ActiveRecord::Base
   belongs_to :user
   belongs_to :group
 
-  validate :title, length: { maximum: 255 }
-
   attr_accessible :description, :salary, :title
+
+  #Valadations
+  validate :user_id, :group_id, :presence => true
+  validate :title, :presence => true, :uniqueness => true, length: { maximum: 255 }
+  validate :description, :presence => true, length: { maximum: 255 }
+  validate :salary, :presence => true, :numericality => true
+
 end
