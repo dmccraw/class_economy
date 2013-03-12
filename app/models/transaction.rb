@@ -11,7 +11,7 @@ class Transaction < ActiveRecord::Base
   validates :amount, :numericality => {:greater_than => 0}
   validates :unique_accounts
   validates_date :occurred_on
-  validates :validates_date
+  validates :valid_date
 
   #Custom Validations
   def unique_accounts
