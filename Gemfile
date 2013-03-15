@@ -28,6 +28,8 @@ gem "rolify", ">= 3.2.0"
 
 gem "figaro", ">= 0.5.3"
 
+gem "awesome_print"
+
 group :development do
   gem "quiet_assets", ">= 1.0.1"
   gem "better_errors", ">= 0.6.0"

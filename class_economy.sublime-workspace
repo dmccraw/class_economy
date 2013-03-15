@@ -1,0 +1,1786 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"des",
+				"destroyed"
+			],
+			[
+				"classable",
+				"classable_type"
+			],
+			[
+				"classa",
+				"classable_type"
+			],
+			[
+				"folderatt",
+				"folder_attachment"
+			],
+			[
+				"classabl",
+				"classable_type"
+			],
+			[
+				"cla",
+				"classible"
+			],
+			[
+				"class",
+				"classable_type"
+			],
+			[
+				"er",
+				"errors"
+			],
+			[
+				"A",
+				"APPLICATION_TYPE_IDS"
+			],
+			[
+				"folder",
+				"folder_attachments"
+			],
+			[
+				"cl",
+				"classable"
+			],
+			[
+				"FA",
+				"FactoryGirl"
+			],
+			[
+				"foldr",
+				"folder_attachment"
+			],
+			[
+				"media",
+				"media_type"
+			],
+			[
+				"mb",
+				"mbc_docs_folder"
+			],
+			[
+				"mc",
+				"mbc_docs_folder"
+			],
+			[
+				"title",
+				"title_changed"
+			],
+			[
+				"owner",
+				"ownerable_id"
+			],
+			[
+				"sc",
+				"schoolwork"
+			],
+			[
+				"mbc_",
+				"mbc_docs_folder"
+			],
+			[
+				"slu",
+				"sluggable_method"
+			],
+			[
+				"@fol",
+				"@folder_list"
+			],
+			[
+				"@fo",
+				"@folder_list"
+			],
+			[
+				"folders",
+				"folders_named_path"
+			],
+			[
+				"scho",
+				"school"
+			],
+			[
+				"di",
+				"district"
+			],
+			[
+				"schoo",
+				"school_id"
+			],
+			[
+				"prev",
+				"preventDefaultLink"
+			],
+			[
+				"item",
+				"itemMenu"
+			],
+			[
+				"menu",
+				"menuVisible"
+			],
+			[
+				"drive",
+				"drive-searching"
+			],
+			[
+				"Folder",
+				"FolderAttachment"
+			],
+			[
+				"own",
+				"ownerable_type"
+			],
+			[
+				"crate",
+				"create_folder_attachment"
+			],
+			[
+				"fold",
+				"folder_attachment"
+			],
+			[
+				"clas",
+				"classable_id"
+			],
+			[
+				"on",
+				"ownerable_id"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"clic",
+				"clickable"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"child",
+				"children"
+			],
+			[
+				"build",
+				"buildFolderUI"
+			],
+			[
+				"level",
+				"level_folders"
+			],
+			[
+				"fol",
+				"folder_tree"
+			],
+			[
+				"parent_",
+				"parent_folder_id"
+			],
+			[
+				"ownera",
+				"ownerable_id"
+			],
+			[
+				"generate",
+				"generate_folder_tree"
+			],
+			[
+				"@f",
+				"@folders_path"
+			],
+			[
+				"modal",
+				"modalIframe"
+			],
+			[
+				"modal-con",
+				"modal-content"
+			],
+			[
+				"unv",
+				"unverified_account"
+			],
+			[
+				"@u",
+				"@unverified"
+			],
+			[
+				"ow",
+				"ownerable_type"
+			],
+			[
+				"o",
+				"ownerable_type"
+			],
+			[
+				"parent",
+				"parent_folder_id"
+			],
+			[
+				"app",
+				"application_type_id"
+			],
+			[
+				"paren",
+				"parent_folder_id"
+			],
+			[
+				"pare",
+				"parent_folder_id"
+			],
+			[
+				"ca",
+				"cached_slug"
+			],
+			[
+				"local",
+				"local_assigns"
+			],
+			[
+				"begi",
+				"beginning_of_month"
+			],
+			[
+				"begin",
+				"beginning_of_day"
+			],
+			[
+				"Scho",
+				"SchoolRequest"
+			],
+			[
+				"@re",
+				"@requested_schools"
+			],
+			[
+				"school",
+				"school_request_id"
+			],
+			[
+				"admin_",
+				"admin_schools_path"
+			],
+			[
+				"redir",
+				"redirect_url"
+			],
+			[
+				"searh",
+				"search_params"
+			],
+			[
+				"sea",
+				"search_params"
+			],
+			[
+				"school_",
+				"school_filter_id"
+			],
+			[
+				"admin",
+				"admin_users_path"
+			],
+			[
+				"sh",
+				"school_filter_id"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"Se",
+				"SERVER_TYPE_TTC"
+			],
+			[
+				"cre",
+				"create_resources"
+			],
+			[
+				"is",
+				"is_member_of"
+			],
+			[
+				"is_group",
+				"is_group_owner_or_moderator"
+			],
+			[
+				"reos",
+				"resourceErrorMessage"
+			],
+			[
+				"create",
+				"create_pages"
+			],
+			[
+				"user",
+				"user_ids"
+			],
+			[
+				"ori",
+				"original_user_id"
+			],
+			[
+				"test_user",
+				"test_user_id"
+			],
+			[
+				"test_u",
+				"test_user_id"
+			],
+			[
+				"test",
+				"test_user_id"
+			],
+			[
+				"test_usrs",
+				"test_users_config"
+			],
+			[
+				"unf",
+				"unverified"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"fi",
+				"first-child"
+			],
+			[
+				"abo",
+				"absolute"
+			],
+			[
+				"un",
+				"unverified-users"
+			],
+			[
+				"current",
+				"current_user"
+			],
+			[
+				"content",
+				"content_school"
+			],
+			[
+				"@un",
+				"@unverified_account"
+			],
+			[
+				"Un",
+				"UnverifiedAccount"
+			],
+			[
+				"det",
+				"delete_type"
+			],
+			[
+				"@bu",
+				"@bundle_user"
+			],
+			[
+				"requ",
+				"requestable"
+			],
+			[
+				"parent_p",
+				"parent_page_id"
+			],
+			[
+				"allo",
+				"allowable_type"
+			],
+			[
+				"mbd",
+				"mbc_doc_id"
+			],
+			[
+				"mbc",
+				"mbc_doc"
+			],
+			[
+				"label",
+				"labelable"
+			],
+			[
+				"help",
+				"help_answers"
+			],
+			[
+				"group",
+				"group_wallpost_id"
+			],
+			[
+				"gou",
+				"group_wallpost"
+			],
+			[
+				"gr",
+				"group_discussion_comments"
+			],
+			[
+				"gropu",
+				"group_discussion_id"
+			],
+			[
+				"suppo",
+				"support_log"
+			],
+			[
+				"de",
+				"dependent"
+			],
+			[
+				"sup",
+				"support_log"
+			],
+			[
+				"groupd",
+				"group_discussion_post"
+			],
+			[
+				"featur",
+				"featurable_type"
+			],
+			[
+				"que",
+				"question_type"
+			],
+			[
+				"vali",
+				"validate_presence_of"
+			],
+			[
+				"bundle",
+				"bundle_id"
+			],
+			[
+				"all",
+				"allowable"
+			],
+			[
+				"dest",
+				"destroy"
+			],
+			[
+				"grad",
+				"grade_category"
+			],
+			[
+				"att",
+				"attachment"
+			],
+			[
+				"spam",
+				"spam_user_rule"
+			],
+			[
+				"deliv",
+				"deliver_email"
+			],
+			[
+				"spam_",
+				"spam_message_recipient"
+			],
+			[
+				"passwor",
+				"password_column"
+			],
+			[
+				"last",
+				"last_polled_parent"
+			],
+			[
+				"SyncS",
+				"SyncServerCache"
+			],
+			[
+				"overri",
+				"override_for"
+			],
+			[
+				"submit_for",
+				"submit_for_review_title"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/models/role.rb",
+			"settings":
+			{
+				"buffer_size": 436,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "home\nstudent view - jim\nadmin - matt\nteacher - aaron\n\ngroup - create, show\nstudent\n",
+			"settings":
+			{
+				"buffer_size": 83,
+				"line_ending": "Unix",
+				"name": "home"
+			}
+		},
+		{
+			"file": "app/controllers/home_controller.rb",
+			"settings":
+			{
+				"buffer_size": 335,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/home/student.html.erb",
+			"settings":
+			{
+				"buffer_size": 7,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/home/teacher.html.erb",
+			"settings":
+			{
+				"buffer_size": 245,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/home/admin.html.erb",
+			"settings":
+			{
+				"buffer_size": 6,
+				"line_ending": "Unix",
+				"name": "_admin"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 1354,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/group.rb",
+			"settings":
+			{
+				"buffer_size": 346,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 1133,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 297,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 49.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 127.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dustinmccraw/git/mbc_apps/class_economy/app/views/home/index.html.erb",
+		"/Users/dustinmccraw/git/mbc_apps/class_economy/app/views/layouts/application.html.erb",
+		"/Users/dustinmccraw/git/mbc_apps/class_economy/Gemfile",
+		"/Users/dustinmccraw/git/mbc_apps/class_economy/Gemfile.lock",
+		"/Users/dustinmccraw/git/mbc_apps/class_economy/app/controllers/home_controller.rb",
+		"/Users/dustinmccraw/git/mbc_apps/class_economy/app/views/groups/new.html.erb",
+		"/Users/dustinmccraw/git/mbc_apps/class_economy/app/views/groups/_form.html.erb",
+		"/Users/dustinmccraw/git/mbc_apps/class_economy/app/models/group.rb",
+		"/Users/dustinmccraw/git/mbc_apps/class_economy/app/models/user.rb",
+		"/Users/dustinmccraw/git/mbc_apps/class_economy/app/controllers/groups_controller.rb",
+		"/Users/dustinmccraw/git/mbc_apps/class_economy/app/controllers/application_controller.rb",
+		"/Users/dustinmccraw/git/mbc_apps/class_economy/app/models/job.rb",
+		"/Users/dustinmccraw/git/mbc_apps/class_economy/app/views/jobs/index.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/library/index.html.haml",
+		"/Users/dustinmccraw/git/mbc_apps/class_economy/config/environments/development.rb",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/reports/report_partials/_item_result.html.haml",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/attachments/_wallpost.html.haml",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/attachments/_schoolwork.html.haml",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/items/video_only.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/pages/help.html.haml",
+		"/Users/dustinmccraw/git/my_big_campus/public/stylesheets/timePicker.css",
+		"/Users/dustinmccraw/git/my_big_campus/vendor/assets/javascripts/jquery/jquery.timePicker.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/controllers/items_controller.rb",
+		"/Users/dustinmccraw/git/my_big_campus/app/controllers/pages_controller.rb",
+		"/Users/dustinmccraw/git/my_big_campus/public/stylesheets/sites.css",
+		"/Users/dustinmccraw/git/my_big_campus/config/routes.rb",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/layouts/application.html.haml",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/layouts/bundles_old.html.haml",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/layouts/conversations.html.haml",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/layouts/help.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/layouts/library_old.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/layouts/pages.html.haml",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/layouts/public_group.html.haml",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/layouts/reports.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/reports/index.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/items/embed_video.html.haml",
+		"/Users/dustinmccraw/git/my_big_campus/public/stylesheets/tipTip.css",
+		"/Users/dustinmccraw/git/my_big_campus/public/stylesheets/ui.notify.css",
+		"/Users/dustinmccraw/git/my_big_campus/public/stylesheets/ttc_redirect.css",
+		"/Users/dustinmccraw/git/my_big_campus/public/stylesheets/token-input.css",
+		"/Users/dustinmccraw/git/my_big_campus/public/stylesheets/token-input-facebook.css",
+		"/Users/dustinmccraw/git/my_big_campus/public/stylesheets/users.css",
+		"/Users/dustinmccraw/git/my_big_campus/public/stylesheets/shared.css",
+		"/Users/dustinmccraw/git/my_big_campus/public/stylesheets/application-ie.css",
+		"/Users/dustinmccraw/git/my_big_campus/public/stylesheets/application-blessed1.css",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/application.js",
+		"/Users/dustinmccraw/git/my_big_campus/config/application.rb",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/stylesheets/mbc_url.css",
+		"/Users/dustinmccraw/git/my_big_campus/public/javascripts/chat.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/chat/view.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/layouts/mbc_url.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/admin.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/reports/trend_data.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/stylesheets/application.css.scss",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/mbc_url.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/helpers/application_helper.rb",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/layouts/doorkeeper.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/public/javascripts/group-chat.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/group-chat.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/video_chat.js",
+		"/Users/dustinmccraw/git/my_big_campus/public/javascripts/video.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/emergency_contacts.js",
+		"/Users/dustinmccraw/git/my_big_campus/public/javascripts/reports.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/admin/bob_queue/index.html.haml",
+		"/Users/dustinmccraw/git/my_big_campus/public/javascripts/old_js/translations.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/items/_item_details_for_show.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/layouts/_top_header_bar.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/public/stylesheets/push.css",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/reports/items/new_items.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/chat/_view.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/reports.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/reports/report_partials/_emergency_contacts_form.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/reports/documents/suspicious_images.html.haml",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/admin/flags/_item.html.haml",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/fn.js.coffee",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/edutalk/layouts/edutalk.html.haml",
+		"/Users/dustinmccraw/git/my_big_campus/public/javascripts/shared.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/app/bundles.js.coffee",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/admin/flags/index.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/public/javascripts/bundles.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/push.js",
+		"/Users/dustinmccraw/git/my_big_campus/public/javascripts/translations.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/init.js.coffee",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/layouts/admin.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/pusher.min.js",
+		"/Users/dustinmccraw/git/my_big_campus/public/javascripts/old_js/chat.functions.js",
+		"/Users/dustinmccraw/git/my_big_campus/vendor/assets/javascripts/date.format.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/date.format.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/luxCountdown.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/fullcalendar.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/app/achievements.js.coffee",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/gcal.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/jquery-migrate-1.1.0.js",
+		"/Users/dustinmccraw/git/my_big_campus/vendor/assets/javascripts/jquery/jquery.activity.min.js",
+		"/Users/dustinmccraw/git/my_big_campus/vendor/assets/javascripts/jquery/jquery.bgiframe.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/main.js.coffee",
+		"/Users/dustinmccraw/git/my_big_campus/vendor/assets/javascripts/ss-symbolicons.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/pages.js.coffee",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/app/schoolwork_question_standards.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/library.js.coffee",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/fullcalendar.min.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/bootstrap-alert.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/group-chat.functions.js",
+		"/Users/dustinmccraw/git/my_big_campus/public/javascripts/old_js/push.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/stylesheets/foundation_and_overrides.scss",
+		"/Users/dustinmccraw/git/my_big_campus/Gemfile",
+		"/Users/dustinmccraw/git/my_big_campus/config/environments/development.rb",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/stylesheets/layout.css.scss",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/stylesheets/modules/buttons.css.scss",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/style_guide/components/inline-lists.html.erb",
+		"/Users/dustinmccraw/Downloads/ss-symbolicons-line/webfonts/ss-symbolicons.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/style_guide/index.html.erb",
+		"/Users/dustinmccraw/git/foundation/scss/normalize.scss",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/style_guide/layout.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/controllers/style_guide_controller.rb",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/style_guide/components/orbit.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/javascripts/style_guide/style_guide.js",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/stylesheets/style_guide.css.scss",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/style_guide/components/dropdown.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/style_guide/components/clearing.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/assets/stylesheets/style_guide/style_guide.css.scss",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/style_guide/javascript.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/style_guide/components/thumbnails.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/style_guide/_sidebar.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/style_guide/_sidebar-components.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/views/style_guide/components/block-grid.html.erb",
+		"/Users/dustinmccraw/git/my_big_campus/app/helpers/style_guide_helper.rb",
+		"/Users/dustinmccraw/git/my_big_campus/app/models/activity_feed.rb"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			".rb",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"body.admin",
+			"jwplayer",
+			"@item",
+			"jwplayer",
+			"SWFObject",
+			"swfobject.js",
+			"item_result",
+			"items/video_encoding",
+			"video_encoding",
+			"item_result",
+			"jwplayer",
+			"swfobject.js",
+			"embed.mpl",
+			"mpl",
+			"Forgot your password",
+			"jwplayer",
+			"swfobject.js",
+			"timePicker",
+			"time-picker",
+			"tiptip_holder",
+			"token-input-list-facebook",
+			"token-input-list",
+			"ttc_redirect",
+			"notice-wrap",
+			"user-header",
+			"admin.css",
+			"trend",
+			"url",
+			"group_id",
+			"browser_audio_type",
+			"is_typing_currently",
+			"<script src=",
+			"OPENTOK",
+			"javascripts/video",
+			"sessionDisconnectedHandler",
+			"sessionConnectedHandler",
+			"<script src=",
+			"embed_video",
+			"swfobject",
+			"threedee",
+			"three-dee",
+			"emergency-contacts').live",
+			"<script src=",
+			"emergency_contacts_form",
+			"getEmergencyContacts",
+			"emergency-contacts",
+			"<script src",
+			"i18n",
+			"<script src",
+			"else",
+			"input.placeholder",
+			"getEmergencyContacts",
+			"script src",
+			"chat.js",
+			"toggleStandardsTree",
+			"getStandards",
+			"displayLoginModal",
+			"bundles.js",
+			"$(\"#quick-links-link\").bind(\"click\", function",
+			"shared",
+			"shared.js",
+			"asteroids",
+			"logged-out-homepage",
+			"admin_1.js",
+			"admin.js",
+			"Pusher JavaScript Library",
+			"sourceFetchers",
+			"vpadding",
+			"formatDate",
+			"curCSS",
+			"vpadding",
+			"ALERT DATA-API",
+			"curCSS",
+			"FullCalendar v1.5.1",
+			"noConflict",
+			"click.alert.data-api",
+			"group_typing_status",
+			"typing_status",
+			"push.js",
+			"jwplayer",
+			"jwplayer.js",
+			"jwplayer",
+			"jw_player",
+			"inline-list",
+			".css",
+			"css",
+			"normalize",
+			"allContent",
+			"logger.red",
+			"id",
+			".red",
+			"orbit-container",
+			"orbit-container orbit-stack-on-small",
+			"data-orbit",
+			"deep li",
+			"switch test users",
+			"/img/demos/demo1.jpg",
+			"./a",
+			"./img",
+			"style_guide",
+			"../img",
+			"img/demos/demo3-th",
+			"style_guide/img/demos/demo3-th",
+			"img/dem",
+			"style_guide/img",
+			"'",
+			"style_guide/",
+			"Made by ZURB",
+			"download fou",
+			"<img src=\"../img/demos",
+			"demos/demo3.jpg",
+			"<img src=\"style_guide/img/",
+			"..",
+			"_sidebar-components.html.erb",
+			"_sidebar-components",
+			"href=\"style_guide",
+			"style_",
+			"style_buid",
+			"getting star",
+			"href=\"components",
+			"zurb",
+			"style_guide",
+			"style",
+			"getting",
+			"asset_path",
+			"sidebar",
+			"config.assets.precompile",
+			"css_dir"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sidebar-components.html.erb",
+			"href=\"/style_guide",
+			"href=\"style_guide/components",
+			"drive_index_path",
+			"parent_polled"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/models/role.rb",
+					"settings":
+					{
+						"buffer_size": 436,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 83,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"auto_name": "home",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/home_controller.rb",
+					"settings":
+					{
+						"buffer_size": 335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/home/student.html.erb",
+					"settings":
+					{
+						"buffer_size": 7,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								7
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/home/teacher.html.erb",
+					"settings":
+					{
+						"buffer_size": 245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								100,
+								100
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/home/admin.html.erb",
+					"settings":
+					{
+						"buffer_size": 6,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6,
+								6
+							]
+						],
+						"settings":
+						{
+							"auto_name": "_admin",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 1354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1211,
+								1217
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 404.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/models/group.rb",
+					"settings":
+					{
+						"buffer_size": 346,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 1133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								660,
+								667
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"laapp",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"group",
+				"app/models/group.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"gem",
+				"Gemfile.lock"
+			],
+			[
+				"homecon",
+				"app/controllers/home_controller.rb"
+			],
+			[
+				"devel.r",
+				"config/environments/development.rb"
+			],
+			[
+				"job",
+				"app/models/job.rb"
+			],
+			[
+				"groupscon",
+				"app/controllers/groups_controller.rb"
+			],
+			[
+				"grnew",
+				"app/views/groups/new.html.erb"
+			],
+			[
+				"groupcon",
+				"app/controllers/groups_controller.rb"
+			],
+			[
+				"rol",
+				"app/models/role.rb"
+			],
+			[
+				"pagecon",
+				"app/controllers/pages_controller.rb"
+			],
+			[
+				"itemcon",
+				"app/controllers/items_controller.rb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"appl",
+				"config/application.rb"
+			],
+			[
+				"appp.r",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"app.js",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"repor.j",
+				"app/assets/javascripts/reports.js"
+			],
+			[
+				"chat.j",
+				"public/javascripts/chat.js"
+			],
+			[
+				"admin.j",
+				"app/assets/javascripts/admin.js"
+			],
+			[
+				"app.h",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"laadm",
+				"app/views/layouts/admin.html.erb"
+			],
+			[
+				"app.r",
+				"config/application.rb"
+			],
+			[
+				"chatfu",
+				"app/assets/javascripts/group-chat.functions.js"
+			],
+			[
+				"appli.js",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"push.js",
+				"app/assets/javascripts/push.js"
+			],
+			[
+				"app.j",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"button",
+				"app/assets/stylesheets/modules/buttons.css.scss"
+			],
+			[
+				"layout.",
+				"app/assets/stylesheets/layout.css.scss"
+			],
+			[
+				"app.cs",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"founda",
+				"app/assets/stylesheets/foundation_and_overrides.scss"
+			],
+			[
+				"app",
+				"config/application.rb"
+			],
+			[
+				"deve",
+				"config/environments/development.rb"
+			],
+			[
+				"appli.ht",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"layou",
+				"app/views/style_guide/layout.html.erb"
+			],
+			[
+				"styegui.cs",
+				"app/assets/stylesheets/style_guide.css.scss"
+			],
+			[
+				"stlayout",
+				"app/views/style_guide/layout.html.erb"
+			],
+			[
+				"styl.js",
+				"app/assets/javascripts/style_guide/style_guide.js"
+			],
+			[
+				"orbit",
+				"app/views/style_guide/components/orbit.html.erb"
+			],
+			[
+				"sglay",
+				"app/views/style_guide/layout.html.erb"
+			],
+			[
+				"side",
+				"app/views/style_guide/_sidebar.html.erb"
+			],
+			[
+				"stgu",
+				"app/helpers/style_guide_helper.rb"
+			],
+			[
+				"blocgr",
+				"app/views/style_guide/components/block-grid.html.erb"
+			],
+			[
+				"layout.h",
+				"app/views/style_guide/layout.html.erb"
+			],
+			[
+				"applicrb",
+				"config/application.rb"
+			],
+			[
+				"sass",
+				"app/views/style_guide/sass.html.erb"
+			],
+			[
+				"app.",
+				"config/application.rb"
+			],
+			[
+				"applic.c",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"appl.r",
+				"config/application.rb"
+			],
+			[
+				"stylegu",
+				"app/controllers/style_guide_controller.rb"
+			],
+			[
+				".giti",
+				".gitignore"
+			],
+			[
+				"applihtm",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"stylgui",
+				"app/views/style_guide/index.html.erb"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"bette",
+				"config/initializers/better_errors.rb"
+			],
+			[
+				"appc.ss",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"app.c",
+				"public/stylesheets/application.css"
+			],
+			[
+				"appl.c",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"globa",
+				"app/assets/stylesheets/global.css.scss"
+			],
+			[
+				"appliccon",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"styguid",
+				"app/controllers/style_guide_controller.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"fold",
+				"app/models/folder.rb"
+			],
+			[
+				"foldspe",
+				"spec/models/folder_spec.rb"
+			],
+			[
+				"youstuf",
+				"app/controllers/your_stuff_controller.rb"
+			],
+			[
+				"item",
+				"app/models/item.rb"
+			],
+			[
+				"schoolwo",
+				"app/models/schoolwork.rb"
+			],
+			[
+				"schoworkcon",
+				"app/controllers/schoolworks_controller.rb"
+			],
+			[
+				"schocon",
+				"app/controllers/schools_controller.rb"
+			],
+			[
+				"fabundle",
+				"spec/factories/bundles.rb"
+			],
+			[
+				"bundle",
+				"app/models/bundle.rb"
+			],
+			[
+				"bundlecon",
+				"app/controllers/bundles_controller.rb"
+			],
+			[
+				"fa",
+				"spec/factories/folder_attachments.rb"
+			],
+			[
+				"fsub",
+				"spec/factories/subjects.rb"
+			],
+			[
+				"subje",
+				"app/models/subject.rb"
+			],
+			[
+				"foldasp",
+				"spec/models/folder_attachment_spec.rb"
+			],
+			[
+				"_mbd",
+				"app/views/drive/shared/_mbcdoc.html.haml"
+			],
+			[
+				"fasp",
+				"spec/lib/folder_attachable_spec.rb"
+			],
+			[
+				"folder",
+				"app/models/folder.rb"
+			],
+			[
+				"fspe",
+				"spec/models/folder_spec.rb"
+			],
+			[
+				"lcsp",
+				"spec/controllers/library_controller_spec.rb"
+			],
+			[
+				"redlo",
+				"config/initializers/red_logger.rb"
+			],
+			[
+				"logg",
+				"config/initializers/logging.rb"
+			],
+			[
+				"libracon",
+				"app/controllers/library_controller.rb"
+			],
+			[
+				"libraat",
+				"app/models/library_attachment.rb"
+			],
+			[
+				"foat",
+				"app/models/folder_attachment.rb"
+			],
+			[
+				"mbcdocon",
+				"app/controllers/mbc_docs_controller.rb"
+			],
+			[
+				"factouserwall",
+				"spec/factories/user_wallpost.rb"
+			],
+			[
+				"userwall",
+				"app/models/user_wallpost.rb"
+			],
+			[
+				"factor",
+				"spec/factories.rb"
+			],
+			[
+				"foldatt",
+				"app/models/folder_attachment.rb"
+			],
+			[
+				"fafol",
+				"spec/factories/folders.rb"
+			],
+			[
+				"facfo",
+				"spec/factories/folder_attachments.rb"
+			],
+			[
+				"facdoen",
+				"spec/factories/document.rb"
+			],
+			[
+				"folattsp",
+				"spec/models/folder_attachment_spec.rb"
+			],
+			[
+				"foldat",
+				"app/models/folder_attachment.rb"
+			],
+			[
+				"folderaacon",
+				"app/controllers/folder_attachments_controller.rb"
+			],
+			[
+				"fac",
+				"spec/factories.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"documencon",
+				"app/controllers/documents_controller.rb"
+			],
+			[
+				"driv.ra",
+				"lib/tasks/drive.rake"
+			],
+			[
+				"drconspe",
+				"spec/controllers/drive_controller_spec.rb"
+			],
+			[
+				"dritabl",
+				"app/views/drive/shared/_drive_table.html.haml"
+			],
+			[
+				"folder_att",
+				"lib/folder_attachable/folder_attachable.rb"
+			],
+			[
+				"schoo",
+				"app/models/schoolwork.rb"
+			],
+			[
+				"drivconospe",
+				"spec/controllers/drive_controller_spec.rb"
+			],
+			[
+				"fafolr",
+				"spec/factories/folders.rb"
+			],
+			[
+				"phot",
+				"app/models/photo.rb"
+			],
+			[
+				"ffolderaa",
+				"spec/factories/folder_attachments.rb"
+			],
+			[
+				"folderattsp",
+				"spec/models/folder_attachment_spec.rb"
+			],
+			[
+				"foldattspe",
+				"spec/lib/folder_attachable_spec.rb"
+			],
+			[
+				"dricon",
+				"app/controllers/drive_controller.rb"
+			],
+			[
+				"uploade",
+				"app/controllers/uploader_controller.rb"
+			],
+			[
+				"uplo",
+				"app/controllers/uploader_controller.rb"
+			],
+			[
+				"datay",
+				"config/database.yml"
+			],
+			[
+				"bundleinde",
+				"app/views/bundles/index.html.haml"
+			],
+			[
+				"docu",
+				"app/models/document.rb"
+			],
+			[
+				"uploaderon",
+				"app/controllers/uploader_controller.rb"
+			],
+			[
+				"atta",
+				"app/models/attachment.rb"
+			],
+			[
+				"contri",
+				"app/models/contribution.rb"
+			],
+			[
+				"user.rb",
+				"app/models/user.rb"
+			],
+			[
+				"users.r",
+				"lib/tasks/users.rake"
+			],
+			[
+				"deletejo",
+				"app/jobs/delete_job.rb"
+			],
+			[
+				"uscon",
+				"app/controllers/admin/users_controller.rb"
+			],
+			[
+				"schore",
+				"app/models/school_request.rb"
+			],
+			[
+				"aschocon",
+				"app/controllers/admin/schools_controller.rb"
+			],
+			[
+				"sr_schoore",
+				"app/views/admin/school_requests/_school_request.html.haml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 286.0,
+	"status_bar_visible": true
+}
