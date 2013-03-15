@@ -1,0 +1,19 @@
+<%= form_for([@group,@job]) do |f| %>
+  <%= render partial: '/shared/errors', locals: { o: @group } %>
+
+  <div class="field">
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :description %>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :salary, "Monthy Salary" %>
+    $ <%= f.text_field :salary %>
+  </div>
+  <div class="actions">
+    <%= f.submit  %>
+  </div>
+<% end %>

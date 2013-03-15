@@ -1,7 +1,14 @@
 ClassEconomy::Application.routes.draw do
 
-  resources :groups
 
+  resources :transactions
+
+
+  resources :groups do
+    resources :jobs
+    resources :students
+    resources :stores
+  end
 
   authenticated :user do
     root :to => 'home#index'

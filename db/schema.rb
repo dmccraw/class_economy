@@ -11,7 +11,51 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130304042418) do
+ActiveRecord::Schema.define(:version => 20130306004158) do
+
+  create_table "accounts", :force => true do |t|
+    t.integer  "owner_id"
+    t.string   "owner_type"
+    t.integer  "group_id"
+    t.float    "balance"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "accounts", ["group_id"], :name => "index_accounts_on_group_id"
+  add_index "accounts", ["owner_id"], :name => "index_accounts_on_owner_id"
+
+  create_table "groups", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "groups", ["user_id"], :name => "index_groups_on_user_id"
+
+  create_table "jobs", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "title"
+    t.string   "description"
+    t.float    "salary"
+    t.integer  "group_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  add_index "jobs", ["group_id"], :name => "index_jobs_on_group_id"
+  add_index "jobs", ["user_id"], :name => "index_jobs_on_user_id"
+
+  create_table "memberships", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "group_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "memberships", ["group_id"], :name => "index_memberships_on_group_id"
+  add_index "memberships", ["user_id"], :name => "index_memberships_on_user_id"
 
   create_table "roles", :force => true do |t|
     t.string   "name"
@@ -23,6 +67,34 @@ ActiveRecord::Schema.define(:version => 20130304042418) do
 
   add_index "roles", ["name", "resource_type", "resource_id"], :name => "index_roles_on_name_and_resource_type_and_resource_id"
   add_index "roles", ["name"], :name => "index_roles_on_name"
+
+  create_table "stores", :force => true do |t|
+    t.integer  "group_id"
+    t.string   "name"
+    t.text     "description"
+    t.boolean  "approved"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  add_index "stores", ["group_id"], :name => "index_stores_on_group_id"
+
+  create_table "transactions", :force => true do |t|
+    t.integer  "from_account_id_id"
+    t.integer  "to_account_id_id"
+    t.integer  "group_id"
+    t.float    "amount"
+    t.string   "description"
+    t.datetime "occurred_on"
+    t.integer  "user_id"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+  end
+
+  add_index "transactions", ["from_account_id_id"], :name => "index_transactions_on_from_account_id_id"
+  add_index "transactions", ["group_id"], :name => "index_transactions_on_group_id"
+  add_index "transactions", ["to_account_id_id"], :name => "index_transactions_on_to_account_id_id"
+  add_index "transactions", ["user_id"], :name => "index_transactions_on_user_id"
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
