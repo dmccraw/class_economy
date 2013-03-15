@@ -1,0 +1,23 @@
+<%#
+  params
+  hide_title  <optional> whether or not to hide the title
+  message     <optional> change the error message
+%>
+
+<% hide_title = false unless local_assigns.has_key?(:hide_title) %>
+<% title_message = "prohibited this from being saved:" unless local_assigns.has_key?(:title_message) %>
+
+<% if o.errors.any? %>
+  <div id="error_explanation">
+    <% unless hide_title %>
+      <h2>
+        <%= pluralize(o.errors.count, "error") %> <%= title_message %></h2>
+      </h2>
+    <% end %>
+    <ul>
+    <% o.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>
