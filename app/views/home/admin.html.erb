@@ -1,1 +1,6 @@
-_admin
+<h2>admin</h2>
+
+Groups:<br/>
+  <% current_user.groups.each do |group| %>
+    <%= link_to group.name, group %></br>
+  <% end %>
