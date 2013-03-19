@@ -4,7 +4,7 @@ class HomeController < ApplicationController
       render "admin"
     elsif current_user.teacher?
       if current_user.groups.count == 1
-        redirect_to
+        redirect_to current_user.groups.first
       else
         render "teacher"
       end
@@ -14,5 +14,16 @@ class HomeController < ApplicationController
   end
 
   def stuff
+  end
+
+  def switch_user
+    if current_user.id <= 4 && params[:user_id].present?
+      if user = User.find_by_id(params[:user_id])
+        sign_in user
+        respond_to do |format|
+          format.js { render text: "location.reload(true);"}
+        end
+      end
+    end
   end
 end
