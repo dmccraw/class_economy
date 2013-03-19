@@ -14,4 +14,10 @@ class Group < ActiveRecord::Base
   has_many :jobs
 
   attr_accessible :name, :user_id
+
+
+  #Valadations
+  validate :user_id, :presence => true
+  validate :name, :presence => true, length: { maximum: 255 }
+
 end
