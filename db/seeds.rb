@@ -13,6 +13,44 @@ YAML.load(ENV['ROLES']).each do |role|
   puts 'role: ' << role
 end
 puts 'DEFAULT USERS'
-user = User.find_or_create_by_email :name => ENV['ADMIN_NAME'].dup, :email => ENV['ADMIN_EMAIL'].dup, :password => ENV['ADMIN_PASSWORD'].dup, :password_confirmation => ENV['ADMIN_PASSWORD'].dup
+user = User.find_or_create_by_email :name => ENV['TEST_ADMIN_NAME'].dup, :email => ENV['TEST_ADMIN_EMAIL'].dup, :password => ENV['TEST_ADMIN_PASSWORD'].dup, :password_confirmation => ENV['TEST_ADMIN_PASSWORD'].dup
 puts 'user: ' << user.name
 user.add_role :admin
+
+# create test teacher
+teacher = User.find_or_create_by_email :name => ENV['TEST_TEACHER_NAME'].dup, :email => ENV['TEST_TEACHER_EMAIL'].dup, :password => ENV['TEST_TEACHER_PASSWORD'].dup, :password_confirmation => ENV['TEST_TEACHER_PASSWORD'].dup
+puts 'user: ' << teacher.name
+teacher.add_role :teacher
+
+
+# create test user1
+student1 = User.find_or_create_by_email :name => ENV['TEST_STUDENT1_NAME'].dup, :email => ENV['TEST_STUDENT1_EMAIL'].dup, :password => ENV['TEST_STUDENT1_PASSWORD'].dup, :password_confirmation => ENV['TEST_STUDENT1_PASSWORD'].dup
+puts 'user: ' << student1.name
+student1.add_role :student
+
+# create test user1
+student2 = User.find_or_create_by_email :name => ENV['TEST_STUDENT2_NAME'].dup, :email => ENV['TEST_STUDENT2_EMAIL'].dup, :password => ENV['TEST_STUDENT2_PASSWORD'].dup, :password_confirmation => ENV['TEST_STUDENT2_PASSWORD'].dup
+puts 'user: ' << student2.name
+student2.add_role :student
+
+# create test group
+group = Group.find_or_create_by_name(
+  name: "Test Group",
+  user_id: teacher.id
+)
+
+# add user 1 to group
+membership = Membership.new()
+membership.user_id = student1.id
+membership.group_id = group.id
+membership.save!
+
+# add user 2 to group
+membership = Membership.new()
+membership.user_id = student2.id
+membership.group_id = group.id
+membership.save!
+
+
+
+

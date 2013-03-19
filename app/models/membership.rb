@@ -12,5 +12,10 @@
 class Membership < ActiveRecord::Base
   belongs_to :user
   belongs_to :group
-  # attr_accessible :title, :body
+
+  attr_accessible :title, :body
+
+  validates :user_id, presence: true
+  validates_uniqueness_of :user_id, :scope => :group_id
+
 end

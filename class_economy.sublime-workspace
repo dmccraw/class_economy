@@ -528,6 +528,16 @@
 			}
 		},
 		{
+			"contents": "Searching 943 files for \"server_roles\"\n\n0 matches across 0 files\n\n\nSearching 943 files for \"server_roles\"\n\n0 matches across 0 files\n",
+			"settings":
+			{
+				"buffer_size": 132,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
 			"contents": "home\nstudent view - jim\nadmin - matt\nteacher - aaron\n\ngroup - create, show\nstudent\n",
 			"settings":
 			{
@@ -549,14 +559,6 @@
 			"settings":
 			{
 				"buffer_size": 7,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/home/teacher.html.erb",
-			"settings":
-			{
-				"buffer_size": 245,
 				"line_ending": "Unix"
 			}
 		},
@@ -594,10 +596,10 @@
 			}
 		},
 		{
-			"file": "config/routes.rb",
+			"file": "db/migrate/20130304042418_rolify_create_roles.rb",
 			"settings":
 			{
-				"buffer_size": 297,
+				"buffer_size": 461,
 				"line_ending": "Unix"
 			}
 		}
@@ -638,6 +640,9 @@
 	},
 	"file_history":
 	[
+		"/Users/dustinmccraw/git/mbc_apps/class_economy/app/views/home/teacher.html.erb",
+		"/Users/dustinmccraw/git/mbc_apps/class_economy/config/application.rb",
+		"/Users/dustinmccraw/git/mbc_apps/class_economy/config/routes.rb",
 		"/Users/dustinmccraw/git/mbc_apps/class_economy/app/views/home/index.html.erb",
 		"/Users/dustinmccraw/git/mbc_apps/class_economy/app/views/layouts/application.html.erb",
 		"/Users/dustinmccraw/git/mbc_apps/class_economy/Gemfile",
@@ -762,10 +767,7 @@
 		"/Users/dustinmccraw/git/my_big_campus/app/views/style_guide/javascript.html.erb",
 		"/Users/dustinmccraw/git/my_big_campus/app/views/style_guide/components/thumbnails.html.erb",
 		"/Users/dustinmccraw/git/my_big_campus/app/views/style_guide/_sidebar.html.erb",
-		"/Users/dustinmccraw/git/my_big_campus/app/views/style_guide/_sidebar-components.html.erb",
-		"/Users/dustinmccraw/git/my_big_campus/app/views/style_guide/components/block-grid.html.erb",
-		"/Users/dustinmccraw/git/my_big_campus/app/helpers/style_guide_helper.rb",
-		"/Users/dustinmccraw/git/my_big_campus/app/models/activity_feed.rb"
+		"/Users/dustinmccraw/git/my_big_campus/app/views/style_guide/_sidebar-components.html.erb"
 	],
 	"find":
 	{
@@ -773,7 +775,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 95.0,
 		"where_history":
 		[
 			"",
@@ -786,6 +788,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"server_roles",
 			"body.admin",
 			"jwplayer",
 			"@item",
@@ -912,8 +915,7 @@
 			"getting",
 			"asset_path",
 			"sidebar",
-			"config.assets.precompile",
-			"css_dir"
+			"config.assets.precompile"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -936,7 +938,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -969,6 +971,38 @@
 					"buffer": 1,
 					"settings":
 					{
+						"buffer_size": 132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 68.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
 						"buffer_size": 83,
 						"regions":
 						{
@@ -992,7 +1026,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "app/controllers/home_controller.rb",
 					"settings":
 					{
@@ -1009,7 +1043,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1018,7 +1054,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "app/views/home/student.html.erb",
 					"settings":
 					{
@@ -1031,32 +1067,6 @@
 							[
 								7,
 								7
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/views/home/teacher.html.erb",
-					"settings":
-					{
-						"buffer_size": 245,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								100,
-								100
 							]
 						],
 						"settings":
@@ -1180,18 +1190,18 @@
 				},
 				{
 					"buffer": 9,
-					"file": "config/routes.rb",
+					"file": "db/migrate/20130304042418_rolify_create_roles.rb",
 					"settings":
 					{
-						"buffer_size": 297,
+						"buffer_size": 461,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								194,
+								194
 							]
 						],
 						"settings":
@@ -1254,6 +1264,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"roles",
+				"db/migrate/20130304042418_rolify_create_roles.rb"
+			],
+			[
+				"app",
+				"config/application.rb"
+			],
 			[
 				"rou",
 				"config/routes.rb"
@@ -1381,10 +1399,6 @@
 			[
 				"founda",
 				"app/assets/stylesheets/foundation_and_overrides.scss"
-			],
-			[
-				"app",
-				"config/application.rb"
 			],
 			[
 				"deve",
@@ -1761,10 +1775,6 @@
 			[
 				"aschocon",
 				"app/controllers/admin/schools_controller.rb"
-			],
-			[
-				"sr_schoore",
-				"app/views/admin/school_requests/_school_request.html.haml"
 			]
 		],
 		"width": 0.0
