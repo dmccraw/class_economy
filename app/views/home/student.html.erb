@@ -1,1 +1,6 @@
-student
+<h2>Student</h2>
+
+Groups:<br/>
+  <% @groups.each do |group| %>
+    <%= link_to group.name, group %></br>
+  <% end %>

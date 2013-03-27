@@ -10,6 +10,7 @@ class HomeController < ApplicationController
         render "teacher"
       end
     elsif current_user.student?
+      @groups = current_user.groups
       render "student"
     end
   end
