@@ -1,6 +1,7 @@
 class HomeController < ApplicationController
   def index
     if current_user.admin?
+      @groups = Group.all
       render "admin"
     elsif current_user.teacher?
       if current_user.groups.count == 1
