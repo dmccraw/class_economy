@@ -1,5 +1,7 @@
 <p id="notice"><%= notice %></p>
 
+<%= render partial: "/shared/top_nav", locals: { current_nav: "info" } %>
+
 <p>
   <b>User:</b>
   <%= @group.user_id %>

@@ -1,0 +1,15 @@
+<%# current_nav = "info" unless defined?(current_nav) %>
+
+<% Rails.logger.debug(current_nav.inspect) %>
+
+<ul class="nav nav-tabs">
+  <li <%= 'class=active' if current_nav == "info" %>>
+    <%= link_to "Info", group_path(@group)  %>
+  </li>
+  <li <%= 'class=active' if current_nav == "students" %>>
+    <%= link_to "Students", group_students_path(@group)  %>
+  </li>
+  <li <%= 'class=active' if current_nav == "jobs" %>>
+    <%= link_to "Jobs", group_jobs_path(@group)  %>
+  </li>
+</ul>
