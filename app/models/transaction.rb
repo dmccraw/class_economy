@@ -5,6 +5,8 @@ class Transaction < ActiveRecord::Base
   belongs_to :user
   attr_accessible :amount, :description, :occurred_on
 
+  has_paper_trail
+
   #Validations
   validates :from_account_id, :to_account_id, :group, :user, :amount, :description, :occurred_on, :presence => true
   validates_associated :from_account_id, :to_account_id, :group, :user
