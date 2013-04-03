@@ -16,7 +16,8 @@ class Group < ActiveRecord::Base
 
   attr_accessible :name, :user_id
 
-  has_many :users, through: :memberships
+  has_many :memberships
+  has_many :users, through: :memberships, source: :user
 
   # valadations
   validate :user_id, :presence => true

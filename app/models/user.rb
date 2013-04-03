@@ -31,6 +31,7 @@ class User < ActiveRecord::Base
   attr_accessible :name, :email, :password, :password_confirmation, :remember_me
 
   has_many :groups
+  has_many :memberships
 
   def student?
     has_role? :student
