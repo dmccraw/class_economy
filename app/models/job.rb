@@ -21,6 +21,6 @@ class Job < ActiveRecord::Base
   #Valadations
   validate :user_id, :group_id, :presence => true
   validate :title, :description, :presence => true, length: { maximum: 255 }
-  validate :salary, :presence => true, :numericality => true { greater_than: 0.0 }
+  validate :salary, :presence => true, :numericality => { greater_than: 0.0 }
 
 end

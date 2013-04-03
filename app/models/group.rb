@@ -21,5 +21,4 @@ class Group < ActiveRecord::Base
   # valadations
   validate :user_id, :presence => true
   validate :name, :presence => true, length: { maximum: 255 }
-
 end
