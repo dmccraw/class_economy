@@ -10,13 +10,15 @@
 #
 
 class Group < ActiveRecord::Base
+  # associations
   belongs_to :user
   has_many :jobs
 
   attr_accessible :name, :user_id
 
+  has_many :users, through: :memberships
 
-  #Valadations
+  # valadations
   validate :user_id, :presence => true
   validate :name, :presence => true, length: { maximum: 255 }
 
