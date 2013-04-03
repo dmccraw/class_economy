@@ -68,7 +68,7 @@ class JobsController < ApplicationController
 
     respond_to do |format|
       if @job.update_attributes(params[:job])
-        format.html { redirect_to @job, notice: 'Job was successfully updated.' }
+        format.html { redirect_to group_jobs_path(@group), notice: 'Job was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }
@@ -84,7 +84,7 @@ class JobsController < ApplicationController
     @job.destroy
 
     respond_to do |format|
-      format.html { redirect_to jobs_url }
+      format.html { redirect_to group_jobs_url }
       format.json { head :no_content }
     end
   end
