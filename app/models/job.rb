@@ -19,8 +19,14 @@ class Job < ActiveRecord::Base
   attr_accessible :description, :salary, :title
 
   #Valadations
+<<<<<<< HEAD
   validate :user_id, :group_id, :presence => true
   validate :title, :description, :presence => true, length: { maximum: 255 }
   validate :salary, :presence => true, :numericality => { greater_than: 0.0 }
+=======
+  validates :user_id, :group_id, :presence => true
+  validates :title, :description, :presence => true, length: { maximum: 255 }
+  validates :salary, :presence => true, numericality: { greater_than: 0.0 }
+>>>>>>> Added Job view fixed issue with model validations.
 
 end

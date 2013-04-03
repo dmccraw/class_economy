@@ -1,11 +1,6 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>User:</b>
-  <%= @job.user %>
-</p>
-
-<p>
   <b>Title:</b>
   <%= @job.title %>
 </p>
@@ -22,9 +17,9 @@
 
 <p>
   <b>Group:</b>
-  <%= @job.group %>
+  <%= @job.group.name %>
 </p>
 
 
-<%= link_to 'Edit', edit_job_path(@job) %> |
-<%= link_to 'Back', jobs_path %>
+<%= link_to 'Edit', edit_group_job_path(@group,@job) %> |
+<%= link_to 'Back', group_jobs_path(@group) %>

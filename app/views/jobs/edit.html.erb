@@ -2,5 +2,5 @@
 
 <%= render 'form' %>
 
-<%= link_to 'Show', @job %> |
-<%= link_to 'Back', jobs_path %>
+<%= link_to 'Show', [@group, @job] %>|
+<%= link_to 'Back', group_jobs_path(@group) %>
