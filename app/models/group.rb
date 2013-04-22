@@ -13,6 +13,7 @@ class Group < ActiveRecord::Base
   # associations
   belongs_to :user
   has_many :jobs
+  has_many :stores
 
   attr_accessible :name, :user_id
 
