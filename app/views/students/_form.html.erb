@@ -1,0 +1,19 @@
+<%= form_for(@student) do |f| %>
+<%= render partial: '/shared/errors', locals: { o: @student } %>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+
+<!-- ?EMAIL?
+<div class="field">
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </div>
+-->
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
