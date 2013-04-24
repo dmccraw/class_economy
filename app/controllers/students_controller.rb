@@ -15,7 +15,7 @@ class StudentsController < ApplicationController
   # GET /students/1
   # GET /students/1.json
   def show
-    @students = User.find(params[:id])
+    @students = @group.users.find(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb

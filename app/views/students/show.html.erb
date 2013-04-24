@@ -1,8 +1,10 @@
 <p id="notice"><%= notice %></p>
 
+@users.each do |student|
+
 <p>
   <b>Student:</b>
-  <%= @student.name %>
+  <%= @user.display_name %>
 </p>
 
 <!--
@@ -11,11 +13,7 @@
   <%= @student.job %>
 </p>
 
-<p>
-  <b>Account Balance:</b>
-  <%= @student.account.balance %>
-</p>
--->
 
-<%= link_to 'Edit', edit_group_student_path(@student) %> |
-<%= link_to 'Back', group_student_path %>
+
+<%= link_to 'Edit', edit_group_student_path(@group, member) %> |
+<%= link_to 'Back', group_student_path(@group) %>

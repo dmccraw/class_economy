@@ -45,4 +45,9 @@ class User < ActiveRecord::Base
     has_role? :admin
   end
 
+  def display_name
+    :name
+  end
+  
+
 end
