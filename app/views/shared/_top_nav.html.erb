@@ -12,4 +12,7 @@
   <li <%= 'class=active' if current_nav == "jobs" %>>
     <%= link_to "Jobs", group_jobs_path(@group)  %>
   </li>
+  <li <%= 'class=active' if current_nav == "stores" %>>
+    <%= link_to "Stores", group_stores_path(@group)  %>
+  </li>
 </ul>
