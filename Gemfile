@@ -37,3 +37,14 @@ group :development do
   gem "binding_of_caller", ">= 0.7.1", :platforms => [:mri_19, :rbx]
   gem "annotate"
 end
+
+group :development, :test do
+  gem 'guard-rspec', '2.4.1'
+  gem 'spork'
+  gem 'guard-spork', '1.4.2'
+  gem 'simplecov', :require => false
+  gem 'rb-fsevent', :require => false
+  gem 'terminal-notifier-guard'
+  gem 'shoulda-matchers'
+  #gem 'mongo', '1.8.2'
+end

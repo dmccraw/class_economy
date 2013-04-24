@@ -7,23 +7,23 @@ class Transaction < ActiveRecord::Base
 
   has_paper_trail
 
-  #Validations
+  # #Validations
   validates :from_account_id, :to_account_id, :group, :user, :amount, :description, :occurred_on, :presence => true
   validates_associated :from_account_id, :to_account_id, :group, :user
   validates :amount, :numericality => {:greater_than => 0}
-  validates :unique_accounts
-  validates_date :occurred_on
-  validates :valid_date
+  validate :unique_accounts
+  # validates_date :occurred_on
+  validate :valid_date
 
-  #Custom Validations
+  # #Custom Validations
   def unique_accounts
   	errors.add_to_base('To and From accounts must be different.') if
   	:to_account_id == :from_account_id
   end
 
   def valid_date
-  	errors.add('Occured On must be less than or equal to today') if 
+  	errors.add('Occured On must be less than or equal to today') if
   	:occurred_on > today
   end
-	
+
 end
