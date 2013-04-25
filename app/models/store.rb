@@ -17,4 +17,5 @@ class Store < ActiveRecord::Base
 
   #Validations by JM
   validates_presence_of :name, :description, :approved, :group
+  validates :name, length: { maximum: 255 }
 end

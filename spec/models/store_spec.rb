@@ -14,5 +14,12 @@
 require 'spec_helper'
 
 describe Store do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it { should belong_to(:group) }
+
+  it { should validate_presence_of(:name) }
+  it { should validate_presence_of(:description) }
+  it { should validate_presence_of(:approved) }
+  it { should validate_presence_of(:group) }
+
+  it { should ensure_length_of(:name).is_at_most(255) }
 end
