@@ -1,0 +1,27 @@
+<h1>Listing students</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Job</th>
+    <th>Current Balance</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @group.users.each do |member| %>
+  <tr>
+    <td><%= member.name %></td>
+    <td></td>
+    <td></td>
+    <td><%= link_to 'Show', group_student_path(@group, member) %></td>
+    <td><%= link_to 'Edit', edit_group_student_path(@group, member) %></td>
+    <td><%= link_to 'Destroy', group_student_path(@group, member), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Create Student', new_group_student_path(group_id: @group.id) %>

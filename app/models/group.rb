@@ -24,3 +24,7 @@ class Group < ActiveRecord::Base
   validate :user_id, :presence => true
   validate :name, :presence => true, length: { maximum: 255 }
 end
+
+def display_name
+  :name
+end

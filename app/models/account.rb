@@ -14,5 +14,6 @@
 class Account < ActiveRecord::Base
   belongs_to :owner, polymorphic: true
   belongs_to :group
-  attr_accessible :balance
+
+  attr_accessible :balance, :owner_id, :owner_type, :group_id
 end

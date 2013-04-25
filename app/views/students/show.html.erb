@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+@users.each do |student|
+
+<p>
+  <b>Student:</b>
+  <%= @user.display_name %>
+</p>
+
+<!--
+<p>
+  <b>Job Title:</b>
+  <%= @student.job %>
+</p>
+
+
+
+<%= link_to 'Edit', edit_group_student_path(@group, member) %> |
+<%= link_to 'Back', group_student_path(@group) %>
